@@ -4,10 +4,10 @@ This repository contains a pipeline to view how users are accessing EDGAR, inclu
 
 ## Description:
 
--Programing language: Python
--Main: sessionization.py
--Inputs: inactivity_period.txt log.csv
--Output: sessionization.txt
+> Programing language: Python
+> Main: sessionization.py
+> Inputs: inactivity_period.txt log.csv
+> Output: sessionization.txt
 
 ### Prerequisites
 
@@ -27,7 +27,7 @@ run on either Unix or Linux
 Since the size of 'log.scv' can be quite large (up to 1TB), line by line processing approach is utilized to make sure that the method is scalable.
 In order to keep track of active sessions, Queue data structure is used.
 The use of Queue enables dynamic memory allocation in order to avoid large arrays.
-The use of Queue also enables to priorities the requests as they show up in 'log.csv'.
+The use of Queue also enables to prioritizes the requests as they show up in 'log.csv'.
    
 
 
