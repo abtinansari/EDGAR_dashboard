@@ -4,10 +4,13 @@ This repository contains a pipeline to view how users are accessing EDGAR, inclu
 
 ## Description:
 
-> Programing language: Python
-> Main: sessionization.py
-> Inputs: inactivity_period.txt log.csv
-> Output: sessionization.txt
+- Programing language: Python
+
+- Main: sessionization.py
+
+- Inputs: inactivity_period.txt log.csv
+
+- Output: sessionization.txt
 
 ### Prerequisites
 
